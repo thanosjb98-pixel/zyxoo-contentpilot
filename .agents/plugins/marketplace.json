@@ -1,0 +1,20 @@
+{
+  "name": "zyxoo-contentpilot-marketplace",
+  "interface": {
+    "displayName": "Zyxoo Creator Tools"
+  },
+  "plugins": [
+    {
+      "name": "ai-content-creator-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ai-content-creator-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
