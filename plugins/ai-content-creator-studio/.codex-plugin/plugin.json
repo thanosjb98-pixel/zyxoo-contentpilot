@@ -1,0 +1,39 @@
+
+{
+  "interface": {
+    "displayName": "Zyxoo The ContentPilot",
+    "shortDescription": "Taglish creator copilot",
+    "longDescription": "Turn ideas into production-ready Filipino creator content. Zyxoo The ContentPilot uses a bundled knowledge base for affiliate scripts, AI drama, storyboards, short-form videos, content calendars, faceless YouTube, and captions.",
+    "developerName": "jb thanos",
+    "category": "Creativity",
+    "capabilities": [
+      "Generate scripts and content plans",
+      "Create storyboards and production prompts",
+      "Draft affiliate and social captions"
+    ],
+    "defaultPrompt": [
+      "Zyxoo, gumawa ng complete TikTok affiliate video package.",
+      "Gumawa ng AI drama series with character bible and scene prompts.",
+      "Gumawa ng 7-day Taglish content calendar."
+    ],
+    "logo": "./assets/zyxoo-contentpilot-icon.png",
+    "composerIcon": "./assets/zyxoo-contentpilot-icon.png",
+    "brandColor": "#6D4AFF"
+  },
+  "name": "ai-content-creator-studio",
+  "version": "0.3.1",
+  "description": "Zyxoo The ContentPilot - Taglish AI content copilot for Filipino creators.",
+  "author": {
+    "name": "jb thanos"
+  },
+  "keywords": [
+    "content-creation",
+    "AI-drama",
+    "affiliate-marketing",
+    "TikTok",
+    "Facebook-Reels",
+    "storyboard",
+    "Taglish"
+  ],
+  "skills": "./skills"
+}
