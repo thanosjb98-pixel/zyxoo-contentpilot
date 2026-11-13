@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-content-creator-studio",
+  "version": "0.3.1",
+  "description": "Zyxoo The ContentPilot is a Taglish AI content copilot for Filipino creators. It uses a bundled creator playbook to help draft affiliate videos, AI drama, storyboards, short-form scripts, content calendars, faceless YouTube packages, repurposed posts, hooks, and captions.",
+  "author": {
+    "name": "jb thanos"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Zyxoo The ContentPilot",
+        "shortDescription": "Taglish creator copilot",
+        "longDescription": "Turn ideas into production-ready Filipino creator content. Zyxoo The ContentPilot uses a bundled knowledge base for hook formulas, TikTok Shop and other affiliate scripts, AI drama and character consistency, storyboards, short-form videos, content calendars, faceless YouTube, repurposing, captions, and platform-safety checks. It generates drafts and production prompts; creators remain responsible for verifying claims, rights, disclosures, and platform requirements.",
+        "developerName": "jb thanos",
+        "category": "Creativity",
+        "capabilities": [
+          "Generate scripts and content plans",
+          "Create storyboards and production prompts",
+          "Draft affiliate and social captions"
+        ],
+        "defaultPrompt": [
+          "Zyxoo, gumawa ng complete TikTok affiliate video package gamit ang product details ko.",
+          "Gumawa ng 5–10 episode AI drama series with character bible and scene prompts.",
+          "Gumawa ng 7-day Taglish content calendar para sa niche ko."
+        ],
+        "logo": "./assets/zyxoo-contentpilot-icon.png",
+        "composerIcon": "./assets/zyxoo-contentpilot-icon.png",
+        "brandColor": "#6D4AFF"
+      },
+      "publication": {
+        "release_notes": "Distribution package v0.3.1: adds Zyxoo The ContentPilot public-facing listing copy, app icon, GitHub repository instructions, and marketplace catalog. Core content-production skill and knowledge base retained."
+      }
+    }
+  }
+}
